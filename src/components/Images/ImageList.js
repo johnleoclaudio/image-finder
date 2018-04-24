@@ -2,13 +2,13 @@ import React, { Fragment } from 'react';
 import ImageListItem from './ImageListItem';
 
 const ImageList = ({ images }) => {
-    const imageLists = images.map(({ id, previewURL }) => {
-        return <ImageListItem key={id} src={previewURL}/>
+    const imageLists = images.map(({ id, webformatURL }) => {
+        return <ImageListItem key={id} src={webformatURL}/>
     });
     return <Fragment>
-        <ul>
+        <div className="row">
             {imageLists}
-        </ul>
+        </div>
     </Fragment>
 }
 
