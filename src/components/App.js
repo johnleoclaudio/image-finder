@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Images from './Images/ImageList';
 import SearchBar from './SearchBar/SearchBar';
 
@@ -31,10 +31,10 @@ class App extends Component {
 
     render () {
         return(
-            <div className="row">
+            <Fragment>
                 <SearchBar onFormSubmit={this.handleFormSubmit} onInputChange={this.handleInputChange} inputValue={this.state.searchInputValue}/>
                 <Images images={this.state.images}/>
-            </div>
+            </Fragment>
         )
     }
 }
