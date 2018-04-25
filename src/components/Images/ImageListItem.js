@@ -2,9 +2,7 @@ import React from 'react';
 
 const ImageListItem = ({ src }) => {
     return (
-        <div>
-            <img src={src} alt="" className="img-fluid"/>
-        </div>
+        <li><img src={src} alt="" className="img-fluid"/></li>
     )
 }
 

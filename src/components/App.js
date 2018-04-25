@@ -9,7 +9,7 @@ class App extends Component {
     }
     
     componentDidMount() {
-        fetch(`https://pixabay.com/api/?key=${process.env.REACT_APP_API_KEY}&q=earth&image_type=photo&page=1`)
+        fetch(`https://pixabay.com/api/?key=${process.env.REACT_APP_API_KEY}&q=coffee&image_type=photo&page=1&orientation=horizontal`)
         .then(result => result.json())
         .then(({ hits }) => this.setState({ images: hits }))
         .catch(error => console.error('Error:', error))
