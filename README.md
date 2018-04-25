@@ -39,7 +39,7 @@ npm start
 
 ## Feel free to use it :blush:
 
-##Things to do
+## Things to do
 - [ ] Add Footer
 - [ ] Add loader
 - [ ] Add image download
