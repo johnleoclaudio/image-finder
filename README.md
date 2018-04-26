@@ -1,6 +1,6 @@
 # Image Finder React app
 Simple image finder app made with Pixabay API and React :heart:
-[Here's the what it looks like](https://johnleoclaudio.github.io/image-finder/)
+[Check it out!](https://johnleoclaudio.github.io/image-finder/)
 
 ## Getting Started
 
